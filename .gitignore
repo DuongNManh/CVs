@@ -30,3 +30,5 @@ Thumbs.db
 
 # Ignore demo img files
 img/
+# Ignore data folder
+data/
