@@ -32,3 +32,5 @@ Thumbs.db
 img/
 # Ignore data folder
 data/
+# Ignore models folder
+models/
