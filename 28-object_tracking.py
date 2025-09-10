@@ -1,6 +1,9 @@
 import cv2
 
+# the tracker KCF is faster but less accurate
 tracker = cv2.TrackerKCF_create()
+# the tracker CSRT is slower but more accurate
+# tracker = cv2.TrackerCSRT_create()
 
 video = cv2.VideoCapture("./img/race.mp4")
 
